@@ -7,6 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -16,6 +18,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class DriverManager {
@@ -26,18 +30,23 @@ public class DriverManager {
 
     // to initialize page factory
 
-    public DriverManager()
-    {
+    public DriverManager(){
         PageFactory.initElements (wDriver,this);
-
     }
 
     // To choose the browser
-    public void chooseBrowser ( ) {
+    public void chooseBrowser ( ) throws MalformedURLException {
         switch (browser) {
             case "chrome": {
-                System.setProperty ("webdriver.chrome.driver", "C:\\Users\\sball\\Downloads\\chromedriver_win32\\chromedriver.exe");
-                wDriver = new ChromeDriver ();
+// Code to run on loacal machine
+//           System.setProperty ("webdriver.chrome.driver", "C:\\Users\\sball\\Downloads\\chromedriver_win32\\chromedriver.exe");
+//           wDriver = new ChromeDriver ();
+
+// code to run on the selenium grid
+             DesiredCapabilities cap=DesiredCapabilities.chrome ();
+             URL url=new URL("http://192.168.0.13:4444/wd/hub");
+             wDriver=new RemoteWebDriver (url,cap);
+
                 break;
             }
             case "ie": {
@@ -93,6 +102,8 @@ public class DriverManager {
         wDriver.quit ();
     }
 
+
 }
+
 
 

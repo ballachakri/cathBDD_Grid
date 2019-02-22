@@ -8,6 +8,7 @@ import cucumber.api.java.Before;
 import org.openqa.selenium.TakesScreenshot;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
 
 public class Hooks {
 
@@ -15,7 +16,7 @@ public class Hooks {
 
     // to set up the browser with website name
     @Before
-    public void setUpTheBrowser ( ) {
+    public void setUpTheBrowser ( ) throws MalformedURLException {
         dManager.chooseBrowser ();
         dManager.maxBrowser ();
         dManager.openHomePage ("https://www.cathkidston.com/");

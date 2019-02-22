@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78c8ada0-8216-48ac-bb0c-016f80dc0a9d" name="Default Changelist" comment="" />
+    <list default="true" id="78c8ada0-8216-48ac-bb0c-016f80dc0a9d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ cath.json" beforeDir="false" afterPath="$PROJECT_DIR$/ cath.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/DriverManager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/DriverManager/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/Hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/Hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/ScreenShot/screenShot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/ScreenShot/screenShot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cath/kidston/bbd/DriverManager/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cath/kidston/bbd/DriverManager/DriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cath/kidston/bbd/Hooks/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cath/kidston/bbd/Hooks/Hooks.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,6 +17,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/cathbdd$CucumberTestRunner.ic" NAME="CucumberTestRunner Coverage Results" MODIFIED="1550849859068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.cath.kidston.bbd.*</FILTER>
+    </SUITE>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="cathbdd" />
@@ -24,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/StepDefinitions/LogInStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="510">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#428#429#0" expanded="true" />
@@ -38,20 +51,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/resources/search.feature">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/DriverManager/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="212">
+              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/ScreenShot/screenShot.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar!/cucumber/api/junit/Cucumber.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="629">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -61,6 +82,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="7" column="83" selection-start-line="7" selection-start-column="83" selection-end-line="7" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/Hooks/Hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,6 +126,9 @@
     <dirStrings>
       <dir>C:\Users\sball\IdeaProjects\cathbdd\src\test\java\com\cath\kidston\bbd\ScreenShot</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -130,15 +166,15 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/Utils/ExcelData.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/Register/RegisterDataFromExcel.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/StepDefinitions/RegisterFromExcelData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/Hooks/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/resources/addToMyBag.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/StepDefinitions/LogInStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/DriverManager/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/Utils/RandomNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/StepDefinitions/AddToBagStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/AddToBag/AddToBag.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/CucumberTestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/Hooks/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/DriverManager/DriverManager.java" />
       </list>
     </option>
   </component>
@@ -159,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,7 +245,34 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bbd" type="462c0819:PsiDirectoryNode" />
-              <item name="StepDefinitions" type="462c0819:PsiDirectoryNode" />
+              <item name="DriverManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cathbdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cathbdd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bbd" type="462c0819:PsiDirectoryNode" />
+              <item name="Hooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cathbdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cathbdd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bbd" type="462c0819:PsiDirectoryNode" />
+              <item name="ScreenShot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cathbdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cathbdd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bbd" type="462c0819:PsiDirectoryNode" />
+              <item name="SortByPricePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cathbdd" type="b2602c69:ProjectViewProjectNode" />
@@ -228,7 +292,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,34 +426,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CucumberTestRunner - 2019.02.19 at 11h 54m 00s.xml">
+    <history-entry file="CucumberTestRunner - 2019.02.22 at 14h 59m 35s.xml">
       <configuration name="CucumberTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestRunner - 2019.02.19 at 11h 55m 24s.xml">
+    <history-entry file="CucumberTestRunner - 2019.02.22 at 15h 07m 57s.xml">
       <configuration name="CucumberTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestRunner - 2019.02.19 at 11h 57m 48s.xml">
+    <history-entry file="CucumberTestRunner - 2019.02.22 at 15h 11m 46s.xml">
       <configuration name="CucumberTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestRunner - 2019.02.19 at 12h 04m 45s.xml">
+    <history-entry file="CucumberTestRunner - 2019.02.22 at 15h 15m 24s.xml">
       <configuration name="CucumberTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestRunner - 2019.02.19 at 12h 10m 32s.xml">
+    <history-entry file="CucumberTestRunner - 2019.02.22 at 15h 16m 28s.xml">
       <configuration name="CucumberTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestRunner - 2019.02.19 at 12h 11m 58s.xml">
+    <history-entry file="CucumberTestRunner - 2019.02.22 at 15h 20m 14s.xml">
       <configuration name="CucumberTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddToBag_getPrice - 2019.02.19 at 13h 03m 02s.xml">
-      <configuration name="AddToBag.getPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddToBag_getPrice - 2019.02.19 at 13h 04m 14s.xml">
-      <configuration name="AddToBag.getPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberTestRunner - 2019.02.19 at 13h 06m 18s.xml">
+    <history-entry file="CucumberTestRunner - 2019.02.22 at 15h 27m 37s.xml">
       <configuration name="CucumberTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestRunner - 2019.02.20 at 10h 38m 39s.xml">
+    <history-entry file="CucumberTestRunner - 2019.02.22 at 15h 37m 38s.xml">
+      <configuration name="CucumberTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberTestRunner - 2019.02.22 at 15h 38m 14s.xml">
+      <configuration name="CucumberTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberTestRunner - 2019.02.22 at 15h 40m 09s.xml">
       <configuration name="CucumberTestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -407,8 +470,8 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.26585695" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5042194" side_tool="true" visible="true" weight="0.26585695" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49367088" visible="true" weight="0.27530363" />
+      <window_info id="Structure" order="1" sideWeight="0.5063291" side_tool="true" weight="0.2705803" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -416,15 +479,16 @@
       <window_info id="Favorites" order="6" sideWeight="0.5042194" side_tool="true" weight="0.26585695" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53975534" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4226646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.27522936" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.27565083" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32874617" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3149847" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31240427" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3299595" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966262" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -607,29 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/Hooks/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/ScreenShot/screenShot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/DriverManager/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="65" selection-start-line="65" selection-end-line="84" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/AddToBag/AddToBag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -651,20 +692,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/sortByPrice.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -699,6 +726,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -706,10 +740,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/sortByPrice.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/StepDefinitions/LogInStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/ScreenShot/screenShot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar!/cucumber/api/junit/Cucumber.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/CucumberTestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="83" selection-start-line="7" selection-start-column="83" selection-end-line="7" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/Hooks/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -726,14 +799,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/StepDefinitions/LogInStepdefs.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cath/kidston/bbd/DriverManager/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="212">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
           </folding>
         </state>
       </provider>
