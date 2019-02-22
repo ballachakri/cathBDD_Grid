@@ -1,0 +1,15 @@
+com\cath\kidston\bbd\SortByPricePage\SortByPrice.class
+com\cath\kidston\bbd\LogIn\LogIn.class
+com\cath\kidston\bbd\Register\Register.class
+com\cath\kidston\bbd\StepDefinitions\SortByPriceStepdefs.class
+com\cath\kidston\bbd\Hooks\Hooks.class
+com\cath\kidston\bbd\Register\RegisterDataFromExcel.class
+com\cath\kidston\bbd\CucumberTestRunner.class
+com\cath\kidston\bbd\ResultsPage\ResultsPage.class
+com\cath\kidston\bbd\Utils\ExcelData.class
+com\cath\kidston\bbd\DriverManager\DriverManager.class
+com\cath\kidston\bbd\StepDefinitions\LogInStepdefs.class
+com\cath\kidston\bbd\StepDefinitions\RegisterStepdefs.class
+com\cath\kidston\bbd\StepDefinitions\RegisterFromExcelData.class
+com\cath\kidston\bbd\HeaderPage\SearchPage.class
+com\cath\kidston\bbd\StepDefinitions\SearchStepDefs.class
